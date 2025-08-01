@@ -1,0 +1,40 @@
+.container{
+    background-color: blue;
+    width: 90vh;
+    height: 60vh;
+    position: relative;
+   
+}
+.box{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation:  bounceForward 3s linear infinite , animaterY 1s ease-out infinite alternate ;
+}
+
+@keyframes bounceForward {
+   from {
+       left: 0;
+    }
+    to {
+        left: 100%;
+    }
+    
+}
+
+@keyframes animaterY {
+    from {
+        bottom: 0;
+    }   n      
+    to {
+        bottom: 60%;
+    }
+    
+}
