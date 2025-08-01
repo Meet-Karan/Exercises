@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Navbar Using Flexbox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .logo{
+           
+        }
+        .logo img{
+            height: 60px;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Segoe UI';
+        }
+        .right ul{
+            display: flex;
+            gap: 34px;
+        }
+        .right ul li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+            
+    </style>
+</head>
+<body>
+    
+        <header>
+            <nav>
+                <div class="logo">
+    <img src="Background-2.png"  alt="">
+                </div>
+                <div class="right">
+                <ul>
+                    
+                    <li>Products ^</li>
+                    <li>Pricing ^</li>
+                    <li>Resources ^</li>
+                    <li>About us ^</li>
+                    <li>Security and compliance</li>
+                    <li><a href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/" target="_blank"><img src="  " height="20px" width="25px" alt=""></a></li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+</body>
+</html>
